@@ -1,0 +1,10 @@
+~ Scribe error test: missing semicolon after assignment ~
+main$() {
+	vault {
+		whole x;
+	}
+	logic {
+		x = 5
+		print$(x);
+	}
+}

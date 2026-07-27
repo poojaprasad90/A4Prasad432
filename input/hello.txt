@@ -1,0 +1,13 @@
+~ Scribe Hello World ~
+main$() {
+	vault {
+		whole x;
+		text msg;
+	}
+	logic {
+		x = 42;
+		msg = "Hello world!";
+		print$(msg);
+		giveback;
+	}
+}

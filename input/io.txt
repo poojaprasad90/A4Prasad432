@@ -1,0 +1,14 @@
+~ Scribe Input and Output ~
+main$() {
+	vault {
+		whole n;
+		text msg;
+	}
+	logic {
+		input$(n);
+		msg = "Value received";
+		print$(msg);
+		print$(n);
+		giveback;
+	}
+}

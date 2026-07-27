@@ -1,0 +1,8 @@
+~ Scribe scanner error-handling test ~
+main$() {
+	logic {
+		good = "a valid string";
+		weird @ ? symbols;
+		open = "string never closed
+	}
+}

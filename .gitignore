@@ -1,0 +1,6 @@
+code/Compilers.exe
+code/Compilers
+code/output/
+out.txt
+err.txt
+*.o

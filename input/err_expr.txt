@@ -1,0 +1,10 @@
+~ Scribe error test: incomplete arithmetic expression ~
+main$() {
+	vault {
+		deci y;
+	}
+	logic {
+		y = 3.5 * ;
+		print$(y);
+	}
+}

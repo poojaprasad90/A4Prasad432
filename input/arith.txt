@@ -1,0 +1,15 @@
+~ Scribe Arithmetic Expressions ~
+main$() {
+	vault {
+		deci x;
+		deci y;
+		whole n;
+	}
+	logic {
+		x = 3.14 + 2 * 5;
+		y = (x - 1.5) / 2;
+		n = 10;
+		print$(x);
+		giveback;
+	}
+}

@@ -1,0 +1,22 @@
+~ Scribe control flow: if-else (check/so/alt) and while-do (during/run) ~
+main$() {
+	vault {
+		whole n;
+		whole sum;
+	}
+	logic {
+		n = 5;
+		sum = 0;
+		during (n > 0) run {
+			sum = sum + n;
+			n = n - 1;
+		}
+		check (sum > 10) so {
+			print$("big total");
+		}
+		alt {
+			print$("small total");
+		}
+		giveback;
+	}
+}
